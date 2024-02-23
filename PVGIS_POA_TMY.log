@@ -186,3 +186,23 @@
 2024-02-23 19:17:32,159 - INFO - Generating Solar PV model statistical grouping.
 2024-02-23 19:17:32,169 - INFO - Solar PV model statistical grouping completed.
 2024-02-23 19:17:32,169 - INFO - *******************
+2024-02-23 19:23:02,080 - INFO - Fetching TMY data for latitude: 54.60452, longitude: -5.9286
+2024-02-23 19:23:03,085 - INFO - HTTP Request: GET https://re.jrc.ec.europa.eu/api/tmy?lat=54.60452&lon=-5.9286&startyear=2005&endyear=2015&outputformat=json "HTTP/1.1 200 OK"
+2024-02-23 19:23:03,462 - INFO - TMY data obtained for: 54.60452, longitude: -5.9286
+2024-02-23 19:23:03,462 - INFO - *******************
+2024-02-23 19:23:03,463 - INFO - Calculating POA irradiance for latitude: 54.60452, longitude: -5.9286
+2024-02-23 19:23:03,470 - INFO - POA Irradiance for: 54.60452, longitude: -5.9286 calculated successfully
+2024-02-23 19:23:03,470 - INFO - *******************
+2024-02-23 19:23:03,470 - INFO - Generating Solar PV model statistical grouping.
+2024-02-23 19:23:03,481 - INFO - Solar PV model statistical grouping completed.
+2024-02-23 19:23:03,482 - INFO - *******************
+2024-02-23 19:32:16,037 - INFO - Fetching TMY data for latitude: 54.60452, longitude: -5.9286
+2024-02-23 19:32:16,942 - INFO - HTTP Request: GET https://re.jrc.ec.europa.eu/api/tmy?lat=54.60452&lon=-5.9286&startyear=2005&endyear=2015&outputformat=json "HTTP/1.1 200 OK"
+2024-02-23 19:32:17,288 - INFO - TMY data obtained for: 54.60452, longitude: -5.9286
+2024-02-23 19:32:17,289 - INFO - *******************
+2024-02-23 19:32:17,289 - INFO - Calculating POA irradiance for latitude: 54.60452, longitude: -5.9286
+2024-02-23 19:32:17,295 - INFO - POA Irradiance for: 54.60452, longitude: -5.9286 calculated successfully
+2024-02-23 19:32:17,295 - INFO - *******************
+2024-02-23 19:32:17,295 - INFO - Generating Solar PV model statistical grouping.
+2024-02-23 19:32:17,307 - INFO - Solar PV model statistical grouping completed.
+2024-02-23 19:32:17,307 - INFO - *******************
