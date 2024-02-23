@@ -64,9 +64,9 @@ class Site:
         )
         logging.info(f'POA Irradiance for: {self.latitude}, longitude: {self.longitude} calculated successfully')
         logging.info("*******************")
-        logging.info("Generating Solar PV model statistical grouping.")
+        logging.info("Generating model statistical grouping.")
         self.rad_data = rad_data_grouped(self.irrad_model)
-        logging.info("Solar PV model statistical grouping completed.")
+        logging.info("Model statistical grouping completed.")
         logging.info("*******************")
 
 
