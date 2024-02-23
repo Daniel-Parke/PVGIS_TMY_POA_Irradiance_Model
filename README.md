@@ -1,6 +1,6 @@
 # PVGIS TMY POA Irradiance Model
 ## Description:
-This repo contains the code required to obtain TMY data from PVGIS for any location in the world. This is then used to calculate from the total plane of array (POA) irradiance in kWh/m2 striking a modelled surface. 
+This repo contains the code required to obtain TMY data from PVGIS for any location in the world. This is then used to calculate from the total plane of array (POA) irradiance in kWh/m2 striking a modelled surface. The only requirements for this program to calculate TMY and POA data is to input a Latitude and Longitude to indentify location, however more relevant parameters can be adjusted (see below).
 
 This is useful when conducting any modelling which requires incident radiation values, and calculates values within a 1 hour resolution. This script can be run by importing the packages into an appropriate IDE, or by running the `PVGIS_irradiance.py` file from wtihin this directory. The parameters that can be adjusted are as follow:
 
