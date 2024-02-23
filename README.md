@@ -18,6 +18,8 @@ This is useful when conducting any modelling which requires incident radiation v
 - irrad_model (pd.DataFrame): DataFrame containing POA irradiance values for the site.
 - rad_data (pd.DataFrame): DataFrame containing statistical grouping of POA irradiance values for the site.
 
+<br><br>
+
 **Example Chart showing grouped weekly radiation values produced from model**
 ![alt text](<example_charts/weekly_bar_grouped_radiation.png>)
 
