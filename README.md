@@ -4,9 +4,6 @@ This repo contains the code required to obtain TMY data from PVGIS for any locat
 
 This is useful when conducting any modelling which requires incident radiation values, and calculates values within a 1 hour resolution. This script can be run by importing the packages into an appropriate IDE, or by running the `PVGIS_irradiance.py` file from wtihin this directory. The parameters that can be adjusted are as follow:
 
-Currently once intialised the Sites class will collect annual TMY data from the EU JRC PVGIS API, it will then perform calculations to determine POA radiation, which will then be summarised and stored within the class object. The modelled radiation data can then be accessed directly in timeseries format with 8760 (1 hour) entries, or alternatively the grouped and aggreagated data can be accessed.
-
-See uploaded Jupyter Notebook for step by step method accessing of data. Also see folder of `example_charts` where I have included some examples of charts made from directly accessing the grouped radiation values. This was done in the included Jupyter notebook file if you would like to see the methods used.
 
 ## **Modelling Parameters:**
 - latitude (float): Latitude of the site.
@@ -20,6 +17,14 @@ See uploaded Jupyter Notebook for step by step method accessing of data. Also se
 - tmy_data (pd.DataFrame): DataFrame containing TMY data for the site.
 - irrad_model (pd.DataFrame): DataFrame containing POA irradiance values for the site.
 - rad_data (pd.DataFrame): DataFrame containing statistical grouping of POA irradiance values for the site.
+
+![alt text](<example_charts/daily_bar_grouped_radiation.png>)
+
+Currently once intialised the Sites class will collect annual TMY data from the EU JRC PVGIS API, it will then perform calculations to determine POA radiation, which will then be summarised and stored within the class object. The modelled radiation data can then be accessed directly in timeseries format with 8760 (1 hour) entries, or alternatively the grouped and aggreagated data can be accessed.
+
+See uploaded Jupyter Notebook for step by step method accessing of data. Also see folder of `example_charts` where I have included some examples of charts made from directly accessing the grouped radiation values. This was done in the included Jupyter notebook file if you would like to see the methods used.
+
+
 
 
 ## ** Example Command Line Interface commands to run PVGIS_Irradiance.py:**
