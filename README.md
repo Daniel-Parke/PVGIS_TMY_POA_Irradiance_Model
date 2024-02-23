@@ -12,11 +12,6 @@ This is useful when conducting any modelling which requires incident radiation v
 - surface_azimuth (float): Azimuth of the modelled plane in degrees.
 - albedo (float): Albedo of the modelled plane.
 - refraction_index (float): Refraction index of the modelled plane.
-- tmz_hrs_east (int): Timezone hours east of GMT, UTC=0.
-- timestep (int): Timestep of weather data in minutes
-- tmy_data (pd.DataFrame): DataFrame containing TMY data for the site.
-- irrad_model (pd.DataFrame): DataFrame containing POA irradiance values for the site.
-- rad_data (pd.DataFrame): DataFrame containing statistical grouping of POA irradiance values for the site.
 
 <br>
 
@@ -56,10 +51,9 @@ surface_pitch = 35
 surface_azimuth = 0
 albedo = 0.2
 refraction_index = 0.1
-tmz_hrs_east = 0
 
 site = Site(latitude, longitude, surface_pitch, surface_azimuth, 
-            albedo, refraction_index, tmz_hrs_east)
+            albedo, refraction_index)
 ```
 
 ### **Accessing model results:**
@@ -99,8 +93,6 @@ site.surface_pitch
 site.surface_azimuth
 site.albedo
 site.refraction_index
-site.tmz_hrs_east
-site.timestep
 
 site.tmy_data
 site.irrad_model
