@@ -25,7 +25,7 @@ Currently once intialised the Sites class will collect annual TMY data from the 
 
 See uploaded Jupyter Notebook for step by step method accessing of data. Also see folder of `example_charts` where I have included some examples of charts made from directly accessing the grouped radiation values. This was done in the included Jupyter notebook file if you would like to see the methods used.
 
-<br>
+<br><br>
 
 ## ** Example CLI commands to run PVGIS_irradiance.py:**
 
