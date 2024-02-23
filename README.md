@@ -18,7 +18,8 @@ This is useful when conducting any modelling which requires incident radiation v
 - irrad_model (pd.DataFrame): DataFrame containing POA irradiance values for the site.
 - rad_data (pd.DataFrame): DataFrame containing statistical grouping of POA irradiance values for the site.
 
-![alt text](<example_charts/daily_bar_grouped_radiation.png>)
+**Example Chart showing grouped weekly radiation values produced from model**
+![alt text](<example_charts/weekly_bar_grouped_radiation.png>)
 
 Currently once intialised the Sites class will collect annual TMY data from the EU JRC PVGIS API, it will then perform calculations to determine POA radiation, which will then be summarised and stored within the class object. The modelled radiation data can then be accessed directly in timeseries format with 8760 (1 hour) entries, or alternatively the grouped and aggreagated data can be accessed.
 
@@ -27,7 +28,7 @@ See uploaded Jupyter Notebook for step by step method accessing of data. Also se
 
 
 
-## ** Example Command Line Interface commands to run PVGIS_Irradiance.py:**
+## ** Example CLI commands to run PVGIS_irradiance.py:**
 
 **Full Command**
 ```bash
@@ -109,6 +110,15 @@ site.rad_data.weekly
 site.rad_data.monthly
 site.rad_data.quarterly
 ```
+
+### **Requirements:**
+
+```python
+pip install httpx
+pip install numpy
+pip install pandas
+```
+
 <br><br>
 
 ![WiseWattage](https://i.imgur.com/Y7oMz2Y.png)
