@@ -1,6 +1,8 @@
 import logging
+import os
 
-logging_configured = False  # Flag to check if logging is configured
+# Flag to check if logging is configured
+logging_configured = False
 
 
 def configure_logging():
@@ -9,13 +11,20 @@ def configure_logging():
     """
     global logging_configured  # Access the global flag
 
+    # Define the logs directory name
+    logs_dir = "logs"
+
+    # Check if the directory exists, and if not, create it
+    if not os.path.exists(logs_dir):
+        os.makedirs(logs_dir)
+
     # Check if logging is not already configured
     if not logging_configured:
         logger = logging.getLogger()  # Get the root logger
         logger.setLevel(logging.INFO)  # Set the default log level to INFO
 
-        # Create a file handler for writing logs to a file
-        file_handler = logging.FileHandler("PVGIS_POA_TMY.log", mode="a")
+        # Create a file handler for writing logs to a file in the 'logs' directory
+        file_handler = logging.FileHandler(os.path.join(logs_dir, "PVGIS_POA_TMY.log"), mode="a")
         file_handler.setFormatter(
             logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
         )
