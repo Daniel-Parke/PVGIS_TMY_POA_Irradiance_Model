@@ -6,12 +6,12 @@ This is useful when conducting any modelling which requires incident radiation v
 
 
 ## **Modelling Parameters:**
-- latitude: Latitude of the site (Default: 54.60452).
-- longitude: Longitude of the site (Default: -5.92860).
-- surface_pitch: Pitch of the modelled plane in degrees (Default: 35).
-- surface_azimuth: Azimuth of the modelled plane in degrees (Default: 0).
-- albedo: Albedo of the modelled plane (Default: 0.2).
-- refraction_index: Refraction index of the modelled plane (Default: 0.1).
+- latitude: Latitude of the site (Default: 54.60452)
+- longitude: Longitude of the site (Default: -5.92860)
+- surface_pitch: Pitch of the modelled plane in degrees (Default: 35)
+- surface_azimuth: Azimuth of the modelled plane in degrees (Default: 0)
+- albedo: Albedo of the modelled plane (Default: 0.2)
+- refraction_index: Refraction index of the modelled plane (Default: 0.1)
 
 <br>
 
