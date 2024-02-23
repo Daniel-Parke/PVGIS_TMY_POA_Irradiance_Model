@@ -37,3 +37,13 @@
 2024-02-23 20:22:16,965 - INFO - Generating model statistical grouping.
 2024-02-23 20:22:16,979 - INFO - Solar statistical grouping completed.
 2024-02-23 20:22:16,979 - INFO - *******************
+2024-02-23 20:22:30,766 - INFO - Fetching TMY data for latitude: 54.60452, longitude: -5.9286
+2024-02-23 20:22:31,935 - INFO - HTTP Request: GET https://re.jrc.ec.europa.eu/api/tmy?lat=54.60452&lon=-5.9286&startyear=2005&endyear=2015&outputformat=json "HTTP/1.1 200 OK"
+2024-02-23 20:22:32,368 - INFO - TMY data obtained for: 54.60452, longitude: -5.9286
+2024-02-23 20:22:32,369 - INFO - *******************
+2024-02-23 20:22:32,369 - INFO - Calculating POA irradiance for latitude: 54.60452, longitude: -5.9286
+2024-02-23 20:22:32,376 - INFO - POA Irradiance for: 54.60452, longitude: -5.9286 calculated successfully
+2024-02-23 20:22:32,376 - INFO - *******************
+2024-02-23 20:22:32,377 - INFO - Generating model statistical grouping.
+2024-02-23 20:22:32,387 - INFO - Model statistical grouping completed.
+2024-02-23 20:22:32,388 - INFO - *******************
