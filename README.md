@@ -4,7 +4,7 @@ This repo contains the code required to obtain TMY data from PVGIS for any locat
 
 This is useful when conducting any modelling which requires incident radiation values, and calculates values within a 1 hour resolution. This script can be run by importing the packages into an appropriate IDE, or by running the `PVGIS_irradiance.py` file from wtihin this directory. The parameters that can be adjusted are as follow:
 
-See included Jupyter Notebook (`PVGIS.irradiance.ipynb1) for step by step breakdown on how to utilise code.
+See included Jupyter Notebook (`PVGIS.irradiance.ipynb`) for step by step breakdown on how to utilise code.
 
 
 ## **Modelling Parameters:**
