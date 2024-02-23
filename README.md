@@ -26,7 +26,7 @@ See uploaded Jupyter Notebook for step by step method accessing of data. Also se
 
 <br>
 
-## ** Example CLI commands to run PVGIS_irradiance.py:**
+## **Example CLI commands to run PVGIS_irradiance.py:**
 
 **Full Command**
 ```bash
